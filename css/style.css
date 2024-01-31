@@ -265,6 +265,10 @@ li {
     display: none;
 }
 
+.search-form__button-mobile:hover {
+    background-color: var(--main-hover);
+}
+
 .search-ico {
     color: var(--white);
 }
