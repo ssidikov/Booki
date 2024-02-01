@@ -187,7 +187,7 @@ li {
     justify-content: center;
     align-items: center;
     min-width: 4rem;
-    background-color: var(--main-bg-color);
+    background-color: var(--grey);
     font-size: 1.1rem;
     border-radius: 15px 0 0 15px;
 }
@@ -201,8 +201,9 @@ li {
     padding-left: 1.4rem;
     font-size: 1.12rem;
     font-weight: 700;
-    border: none;
     outline: none;
+    background-color: var(--white);
+    border: none;
 }
 
 .search-form__button {
@@ -210,7 +211,6 @@ li {
     color: var(--white);
     border: none;
     border-radius: 0 15px 15px 0;
-    border: 1px solid var(--main-color);
     padding: 0 14px;
     font-size: 1.12rem;
     font-weight: 700;
@@ -226,11 +226,10 @@ li {
     height: 3rem;
     padding: 15px 16px;
     align-items: center;
-    gap: 10px;
     background-color: var(--main-color);
     border-radius: 15px;
-    border: 1px solid var(--main-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
     transition: .3s;
     display: none;
 }
@@ -409,24 +408,9 @@ li {
     justify-content: space-between;
 }
 
-
-/* .card-title {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin: 10px 0 5px 0;
-}
-
-.card-subtitle {
-    margin: 0;
-} */
-
-.populaires-cards .card-rating {
+.card-rating {
     margin-bottom: 5px;
 }
-
-/* .filter-logo {
-    color: blue;
-} */
 
 .show-more {
     align-self: flex-start; 
@@ -507,7 +491,7 @@ footer {
 
 /****** Media queries ***********/
 
-@media (min-width: 1440px) {
+@media (min-width: 1900px) {
     body {
         width: 90%;
     }
