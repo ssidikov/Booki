@@ -295,8 +295,8 @@ li {
 }
 
 .infobar-ico {
-    width: 24px;
-    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
     border: 1px solid var(--dark-grey);
     color: var(--main-color);
     border-radius: 50px;
@@ -325,7 +325,7 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px;
+    gap: 28px;
     margin: 0 25px;
 }
 
@@ -415,7 +415,7 @@ li {
 
 .show-more {
     align-self: flex-start; 
-    padding: 35px;
+    padding: 30px;
 }
 
 .show-more a {
@@ -492,13 +492,7 @@ footer {
 
 /****** Media queries ***********/
 
-@media (min-width: 1900px) {
-    body {
-        width: 90%;
-    }
-}
-
-@media (max-width: 1059px) {
+@media (max-width: 1024px) {
 
     .search-form__input {
         width: 100%;
@@ -518,7 +512,7 @@ footer {
     }
 
     .filter {
-        min-width: 164px;
+        min-width: 167px;
     }
 
     .accommodation {
@@ -626,18 +620,12 @@ footer {
         width: 100%;
     }
 
-    .filter-bar {
-        width: 95%;
+    .search-form__input {
+        height: 3rem;
+        padding-left: 1rem;
+        font-size: 1rem;
     }
-
-    .filter-bar__list {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 15px;
-        width: 100%;
-        gap: 20px;
-    }
-
+    
     .accommodation {
         flex-direction: column-reverse;
     }
@@ -676,7 +664,11 @@ footer {
     }
 
     .accommodation-main__card-link img {
-        height: 207px;
+        height: 124px;
+    }
+
+    .activities {
+        padding: 0 30px 30px 30px;
     }
     
     .activities-cards {
