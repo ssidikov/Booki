@@ -500,10 +500,6 @@ footer {
 
 @media (max-width: 1059px) {
 
-    .search-form {
-        width: 100%;
-    }
-
     .search-form__input {
         width: 100%;
     }
@@ -624,6 +620,10 @@ footer {
 
     .search-bar {
         padding: 0 20px;
+    }
+
+    .search-form {
+        width: 100%;
     }
 
     .filter-bar {
