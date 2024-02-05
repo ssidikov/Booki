@@ -555,10 +555,6 @@ footer {
         font-size: 13px;
     }
 
-    .activities-card {
-        max-height: 270px;
-    }
-
     .activities-card img {
         max-height: 200px;
     }
@@ -674,6 +670,10 @@ footer {
     .activities-cards {
         flex-direction: column;
         gap: 15px;
+    }
+
+    .activities-card img {
+        max-height: 141px;
     }
 
     .activities-card {
