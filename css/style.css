@@ -209,6 +209,11 @@ li {
 	border: none;
 }
 
+.search-form__input::placeholder {
+    color: var(--black);
+    opacity: 1;
+  }
+
 .search-form__button {
 	background-color: var(--main-color);
 	color: var(--white);
