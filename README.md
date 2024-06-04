@@ -16,4 +16,4 @@ Ce projet consiste à développer la page d'accueil d'une agence de voyage en ut
 
 ## Technologies utilisées:
 
-HTML / CSS / FIGMA
+HTML / CSS / FIGMA / FLEXBOX / GRID
